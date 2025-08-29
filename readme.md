@@ -8,7 +8,7 @@
        querySelectorAll - returns all matching elements as a static list doesn’t update 
   
 2. How do you **create and insert a new element into the DOM**?
-    ans- IUse document.createElement() and append it with appendChild() or append().
+    ans- I use document.createElement() and append it with appendChild() or append().
 
 3. What is **Event Bubbling** and how does it work?
     ans- Event Bubbling means that when an event happens on a child element, it bubbles up through its parent elements until it reaches the root
