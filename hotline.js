@@ -23,7 +23,7 @@ document.querySelectorAll(".call-btn").forEach(btn => {
     const number = card.querySelector(".service-number").innerText;
 
     if (coins < 20) {
-      alert("❌ Not enough coins!");
+      alert("❌ Insufficient coins! You need at least 20 coins to make a call!");
       return;
     }
 
